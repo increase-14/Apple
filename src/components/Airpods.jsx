@@ -1,5 +1,5 @@
 import React from 'react'
-import AirPods from "../assets/AirPods.svg"
+import AirPods from "../assets/AirPods.webp"
 
 
 const Airpods = () => {
