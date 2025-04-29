@@ -1,5 +1,5 @@
 import React from 'react'
-import AirPods from "../assets/AirPods.webp"
+import airpods from "../assets/airpods.webp"
 
 
 const Airpods = () => {
@@ -9,7 +9,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] flex justify-center p-[20px]'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -22,7 +22,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -35,7 +35,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -48,7 +48,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -61,7 +61,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -74,7 +74,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -87,7 +87,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -100,7 +100,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
@@ -113,7 +113,7 @@ const Airpods = () => {
         <div className='bg-[#212121ED] w-[300px] rounded-xl mt-[50px]'>
           <h1 className='text-center text-white'>Discount 16%</h1>
           <div className='bg-[#363636] p-[20px] flex justify-center'>
-            <img className='w-[250px]' src={AirPods} alt="" />
+            <img className='w-[250px]' src={airpods} alt="" />
           </div>
           <div className='bg-[#363636]'>
             <h1 className='text-center text-white'>AirPods</h1>
