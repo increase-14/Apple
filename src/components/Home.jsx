@@ -12,35 +12,12 @@ import person2 from "../assets/person2.svg"
 
 
 
+
+
 const Home = () => {
   return (
     <div className='bg-black'>
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-      >
-        <SwiperSlide>      <div className='pt-[100px]'>
-          <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-          <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-            because we are apple and you need to buy</p>
-          <div className='flex justify-center'>
-            <img className='w-[500px]' src={iphone} alt="" />
-          </div>
-          <div className='flex justify-center mt-[30px]'>
-            <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-          </div>
-        </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
+      <div className='pt-[100px]'>
         <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
         <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
           because we are apple and you need to buy</p>
@@ -50,85 +27,7 @@ const Home = () => {
         <div className='flex justify-center mt-[30px]'>
           <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
         </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-        <SwiperSlide>      <div className='pt-[100px]'>
-        <h1 className='text-white text-5xl text-center'>iPhone 16 Pro Max</h1>
-        <p className='text-[#BABABA] text-center pt-[20px] pb-[20px]'>The modern technologies with sufficient conditions just buy it
-          because we are apple and you need to buy</p>
-        <div className='flex justify-center'>
-          <img className='w-[500px]' src={iphone} alt="" />
-        </div>
-        <div className='flex justify-center mt-[30px]'>
-          <button className="text-white bg-[#ED9B40] rounded-xl w-[130px] h-[40px] cursor-pointer">Add Cart </button>
-        </div>
-      </div></SwiperSlide>
-      </Swiper>
+      </div>
       <div className='pt-[200px]'>
         <h1 className='text-white text-5xl text-center'>Advantages</h1>
         <div className='flex justify-around items-center mt-[50px]'>
