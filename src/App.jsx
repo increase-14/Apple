@@ -7,6 +7,13 @@ import Ipad from './components/Ipad'
 import Airpods from './components/Airpods'
 import logo from "./assets/logo.svg"
 import logos from "./assets/logos.svg"
+import React, { useRef, useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import './index.css';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const App = () => {
   return (
