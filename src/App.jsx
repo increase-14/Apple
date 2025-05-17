@@ -7,6 +7,7 @@ import Ipad from './components/Ipad'
 import Airpods from './components/Airpods'
 import logo from "./assets/logo.svg"
 import logos from "./assets/logos.svg"
+import Cart from './components/Cart'
 
 const App = () => {
   return (
@@ -46,10 +47,11 @@ const App = () => {
           <Route path="/Iphone" element={<Iphone />} />
           <Route path="/Ipad" element={<Ipad />} />
           <Route path="/Airpods" element={<Airpods />} />
-        </Routes>
+          <Route path="/cart/:title/:id" element={<Cart />} />
+          </Routes>
       </BrowserRouter>
     </div>
   )
 }
 
-export default App
+export default App;

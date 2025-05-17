@@ -1,16 +1,16 @@
-import React from 'react';
+import React from 'react'
 import { Link } from 'react-router-dom';
-import airpods from '../airData';
 
-const Airpods = () => {
+
+const Product = () => {
   return (
     <div className="bg-black">
       <div className="flex justify-around flex-wrap gap-[50px] px-[100px]">
         {airpods.map((item) => (
           <Link
             key={item.id}
-            to={`/cart/Airpods/${item.id}`} 
-            className="bg-[#212121ED] w-[300px] rounded-xl mt-[50px] block hover:scale-105 transition-transform duration-300"
+            to={`/cart/${title}/${item.id}`}
+            className="bg-[#212121ED] w-[300px] rounded-xl mt-[50px] block"
           >
             <h1 className="text-center text-white">Discount {item.discount}%</h1>
             <div className="bg-[#363636] flex justify-center p-[20px]">
@@ -23,10 +23,7 @@ const Airpods = () => {
             <div className="bg-[#212121ED] rounded-xl">
               <h1 className="text-center cursor-pointer p-[5px] text-white">Add to</h1>
             </div>
-          </Link>
-        ))}
-      </div>
-      <footer className="flex justify-around pt-[150px] pb-[50px] text-white">
+            <footer className="flex justify-around pt-[150px] pb-[50px] text-white">
         {[...Array(4)].map((_, i) => (
           <div key={i}>
             <h1 className="text-2xl">Apple</h1>
@@ -37,8 +34,12 @@ const Airpods = () => {
             <h1 className="text-[#B5B5B5] text-[20px] pt-[10px]">iPhone</h1>
           </div>
         ))}
-      </footer>    </div>
-  );
-};
+      </footer>
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
+}
 
-export default Airpods;
+export default Product
